@@ -1,0 +1,148 @@
+/* Part 1 */
+.flexContainer1 {
+  display: flex;
+  background-color: DodgerBlue;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex1Div1 {
+  background-color: #dc0cb6;
+  height: 50px;
+  margin: 10px;
+  margin-right: 5px;
+  flex: 1;
+}
+
+.flex1Div2 {
+  background-color: #dc0cb6;
+  height: 50px;
+  margin: 10px;
+  margin-left: 5px;
+  flex: 1;
+}
+
+/* Part 2 */
+.flexContainer2 {
+  display: flex;
+  background-color: DodgerBlue;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex2Div1 {
+  background-color: #d0eb0b;
+  height: 50px;
+  margin: 15px;
+  margin-right: 5px;
+  flex: 1;
+}
+
+.flex2Div2 {
+  background-color: #d0eb0b;
+  height: 50px;
+  margin: 15px;
+  margin-left: 10px;
+  margin-right: 5px;
+  flex: 1;
+}
+
+.flex2Div3 {
+  background-color: #d0eb0b;
+  height: 50px;
+  margin: 15px;
+  margin-left: 10px;
+  flex: 1;
+}
+
+/* Part 3 */
+/* The thickness of border lines are assumed as part of the size of inner boxes in this case.
+Margins have been adapted so that the space between columns and borders as per the instructions */
+
+.flexContainer3 {
+  display: flex;
+  background-color: DodgerBlue;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex3Div1 {
+  background-color: #cd1515;
+  height: 50px;
+  margin: 10px;
+  margin-right: 5px;
+  border: 2px solid black;
+  flex: 2;
+}
+
+.flex3Div2 {
+  background-color: #cd1515;
+  height: 50px;
+  margin: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 2px solid black;
+  flex: 1;
+}
+
+.flex3Div3 {
+  background-color: #cd1515;
+  height: 50px;
+  margin: 10px;
+  margin-left: 5px;
+  border: 2px solid black;
+  flex: 1;
+}
+
+/* Part 4 */
+/* The thickness of border lines are assumed as part of the size of inner boxes in this case.
+Margins have been adapted so that the space between columns and borders as per the instructions */
+
+.flexContainer4 {
+  display: flex;
+  background-color: DodgerBlue;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.flex4Div1 {
+  background-color: #1bbc18;
+  flex-direction: column;
+  height: 50px;
+  margin: 10px;
+  margin-right: 5px;
+  border: 2px solid black;
+  flex: 1;
+}
+
+.flex4Div2 {
+  background-color: #1bbc18;
+  flex-direction: column;
+  height: 50px;
+  margin: 10px;
+  margin-right: 10px;
+  border: 2px solid black;
+  flex: 1;
+}
+
+.flex4Footer {
+  background-color: #1bbc18;
+  flex-direction: column;
+  height: 50px;
+  margin: 10px;
+  margin-top: 5px;
+  border: 2px solid black;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+}
+.row1 {
+  display: flex;
+  flex-direction: row;
+}
